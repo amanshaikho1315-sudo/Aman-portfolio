@@ -1,0 +1,398 @@
+=""<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html>
+<head>
+    <title>Aman Shaikh | Web Developer</title>  
+ <style>
+ .projects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project-card {
+    background: #1d1d1d;
+    padding: 25px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.project-card p {
+    color: #ccc;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+form {
+    max-width: 450px;
+    margin: 30px auto;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 14px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    background: #222;
+    color: white;
+}
+
+textarea {
+    height: 120px;
+    resize: none;
+}
+ * {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background: #181818;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #00bfff;
+}
+
+.hero {
+    padding: 80px 20px;
+    min-height: 80vh;
+}
+
+.profile {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+}
+
+h1 {
+    font-size: 45px;
+    margin: 20px 0 10px;
+}
+
+h1 span {
+    color: #00bfff;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #ccc;
+}
+
+button {
+    margin-top: 20px;
+    padding: 13px 28px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+section {
+    padding: 70px 20px;
+}
+
+section > p {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.7;
+    color: #ccc;
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.card {
+    background: #1d1d1d;
+    padding: 25px;
+    width: 220px;
+    border-radius: 15px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}  
+ nav {
+    margin-bottom: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 17px;
+}
+
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+    body {
+        background-color: #111;
+        color: white;
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 30px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        margin-top: 35px;
+    }
+
+    p, li {
+        font-size: 18px;
+    }
+
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    li {
+        margin: 10px;
+    }
+    @media (max-width: 600px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 7px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 60px 15px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 17px;
+    }
+
+    .profile {
+        width: 130px;
+        height: 130px;
+    }
+
+    section {
+        padding: 50px 15px;
+    }
+
+    .card,
+    .project-card {
+        width: 100%;
+        max-width: 320px;
+    }
+}
+.hero {
+    animation: fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+</style>
+</head>
+<body>
+
+    <nav>
+
+    <h2>Aman Shaikh</h2>
+
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+</nav>
+
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+        I'm Aman Shaikh, a BCS student and aspiring web developer.
+        I'm currently learning HTML, CSS and JavaScript and building
+        projects to improve my web development skills.
+    </p>
+
+</section>
+
+
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skills">
+
+            <div class="card">
+                <h3>HTML</h3>
+                <p>Website structure</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>Website design</p>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>Website functionality</p>
+            </div>
+
+        </div>
+    </section> 
+    
+    <section id="projects">
+
+    <h2>My Projects</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Calculator</h3>
+            <p>A simple calculator created using HTML, CSS and JavaScript.</p>
+            <a href="calculater.html" class="project-button">
+    View Project</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Registration Form</h3>
+            <p>A clean registration form created using HTML and CSS.</p>
+            <a href="registration.html" class="project-button">
+    View Project
+</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Digital Clock</h3>
+            <p>A digital clock project using JavaScript.</p>
+            <a href="clock.html" class="project-button">
+    View Project
+</a>
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2>Contact Me</h2>
+
+    <p>
+        Have a project idea or want to connect?
+        Send me a message.
+    </p>
+
+    <form onsubmit="sendMessage(event)">
+
+        <input
+            type="text"
+            placeholder="Your Name"
+            required
+        >
+
+        <input
+            type="email"
+            placeholder="Your Email"
+            required
+        >
+
+        <textarea
+            placeholder="Your Message"
+            required
+        ></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</section>
+
+
+    <script>
+    function sendMessage(event) {
+    event.preventDefault();
+
+    alert("Your message has been received! 😊");
+}
+        function showMessage() {
+            alert("Thanks for visiting my website! 😊");
+        }
+    </script>
+
+</body>
+
+</body>
+          </html>
